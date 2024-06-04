@@ -6,14 +6,14 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.android.github.models.ProfileDetail
 import com.android.github.models.RepositoryList
-import com.android.github.repository.ProductRepository
+import com.android.github.repository.ProfileRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
 class MainViewModel @Inject constructor(
-    private val repository: ProductRepository,
+    private val repository: ProfileRepository,
     private val savedStateHandle: SavedStateHandle
 ) : ViewModel() {
     val productsLiveData: LiveData<ProfileDetail>
