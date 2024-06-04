@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="twenty_five_dp">25dp</dimen>
+    <dimen name="five_dp">5dp</dimen>
+</resources>

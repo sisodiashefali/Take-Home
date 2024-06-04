@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Take Home</string>
+    <string name="enter_user_id">Enter a Github user id</string>
+    <string name="search">SEARCH</string>
+    <string name="error_message">Something went wrong!</string>
+    <string name="title_activity_git_profile_screen">GitProfileScreen</string>
+</resources>
