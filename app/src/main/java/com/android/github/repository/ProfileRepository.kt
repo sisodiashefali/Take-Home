@@ -7,7 +7,7 @@ import com.android.github.models.RepositoryList
 import com.android.github.retrofit.ApiService
 import javax.inject.Inject
 
-class ProductRepository @Inject constructor(private val apiService: ApiService) {
+class ProfileRepository @Inject constructor(private val apiService: ApiService) {
 
     private val _profile = MutableLiveData<ProfileDetail>()
     val profile: LiveData<ProfileDetail>
